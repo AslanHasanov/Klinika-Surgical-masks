@@ -1,0 +1,104 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+height: 6rem;
+padding: 1.5rem 10rem;
+position: fixed;
+z-index: 2;
+
+}
+.head ul{
+    display: flex;
+    
+}
+.head li{
+    list-style: none;
+   
+}
+.head .left{
+width: 17%;
+}
+.head .left img{
+    width: 100%;
+    padding: 9px 17px;
+}
+.head .right li{
+    list-style: none;
+}
+.head .right a{
+    margin-left: 3.8rem;
+    text-decoration: none;
+    color: azure;
+    font-weight: 600;
+    font-size: 15px;
+}
+.head .right .appoint{
+    color: black;
+    background-color: aliceblue;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 15px 35px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.banner{
+    background-image:url(..//images/Banner-home-shop.jpg) ;
+    padding: 12rem 0;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+}
+.banner .message{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    
+}
+.message i{
+    font-size: 38px;
+    color: #626AD4;
+}
+.shop{
+    width: 35%;
+    margin-left: 10rem;
+    
+}
+.shop h1{
+    font-size: 55px;
+    color: white;
+}
+.shop p{
+    font-size:15px ;
+    color: white;
+    margin-bottom: 3rem;
+}
+.banner .FFP3{
+    position: absolute;
+    left: 4rem;
+    top: 8rem;
+    z-index: 1;
+}
+
+.shop a{
+    
+    font-size: 14px;
+    color: white;
+    background-color: #02486b;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 15px 35px;
+    text-decoration: none;
+    transition: .7s;
+}
+.shop a:hover{
+    background-color: #3694B9;
+}
