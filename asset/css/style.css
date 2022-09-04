@@ -55,7 +55,7 @@ width: 17%;
     background-position: center;
     background-size: cover;
     position: relative;
-   
+   display: flex;
 }
 .banner .message{
     position: fixed;
@@ -87,7 +87,6 @@ width: 17%;
     top: 8rem;
     z-index: 1;
 }
-
 .shop a{
     
     font-size: 14px;
@@ -101,4 +100,133 @@ width: 17%;
 }
 .shop a:hover{
     background-color: #3694B9;
+}
+.mask-image{
+    width: 38%;
+    margin-bottom: 40px;
+    margin-left: 7rem;
+}
+.mask-image img{
+width: 100%;
+}
+.title-div{
+    margin-top: 10rem;
+    padding-bottom: 4rem;
+}
+.mask-title{
+    text-align: center;
+    font-size: 28px;
+    color: #222222;
+}
+.masks{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   padding: 0 8rem;
+
+}
+.mask{
+    width: 29%;
+    background-color: #F2F2F2;
+    margin-bottom: 2rem;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.m-top img{
+    width: 100%;
+    padding: 5%;
+    transition: .7s;
+}
+.m-top img:hover{
+    padding: 0%;
+}
+.m-top{
+    position: relative;
+}
+.m-top .layout{
+position: absolute;
+right: 18px;
+top: 18px;
+width: 40px;
+height: 9rem;
+background-color: rgb(255, 255, 255);
+border: 1px solid transparent;
+border-radius: 30px;
+text-align: center;
+
+}
+#ic1{
+    margin-top: 20px;
+}
+.m-top .layout i{
+  padding-top: 10px;
+   
+}
+
+.m-mid a{
+    text-decoration: none;
+    color: #111111;
+    font-size: 18px;
+    margin-left: 1.5rem;
+}
+.m-bot{
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.m-bot i{
+    color: #8C8E8F;
+}
+.end-div{
+    text-align: center;
+    padding: 2rem 0;
+}
+.end-div a{
+    text-decoration: none;
+    color: #F2F2F2;
+    border: 1px solid transparent;
+    background-color: #626AD4;
+    transition: .7s;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+}
+.end-div a:hover{
+    background-color: #3694B9;
+}
+.quality{
+    background-image: url(..//images/quality-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 12.5rem 0;
+    position: relative;
+    margin-bottom: 6rem;
+    z-index: -1;
+}
+.quality-img{
+position: absolute;
+top: 6.5rem;
+left: 13rem;
+}
+.premium{
+    text-align: center;
+    width: 35%;
+    margin-left: 15rem;
+}
+.premium h2{
+    color: #F2F2F2;
+    font-size: 30px;
+}
+.premium p{
+    color: #F2F2F2;
+    font-size: 15px;
+    margin-bottom: 3rem;
+}
+.premium a{
+    text-decoration: none;
+    color: #3694B9;
+    background-color: #F2F2F2;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    
 }
